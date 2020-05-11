@@ -43,7 +43,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textDietMain"
+        android:id="@+id/text_diet_main"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -57,11 +57,11 @@
         app:layout_constraintBottom_toTopOf="@+id/button_products"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textDietTitle"
+        app:layout_constraintTop_toBottomOf="@+id/text_diet_title"
         tools:targetApi="o" />
 
     <TextView
-        android:id="@+id/textDietTitle"
+        android:id="@+id/text_diet_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/title_diet"

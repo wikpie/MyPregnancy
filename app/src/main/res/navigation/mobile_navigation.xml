@@ -61,6 +61,16 @@
             app:destination="@id/navigation_diet"
             app:enterAnim="@android:anim/slide_in_left"
             app:exitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_navigation_workout_to_workoutDontsFragment"
+            app:destination="@id/workoutDontsFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_navigation_workout_to_workoutDosFragment"
+            app:destination="@id/workoutDosFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"/>
     </fragment>
     <fragment
         android:id="@+id/dietNutrientsFragment"
@@ -72,4 +82,12 @@
         android:name="wiktor.pienko.mypregnancy.fragments.diet.DietProductsFragment"
         android:label="fragment_diet_products"
         tools:layout="@layout/fragment_diet_products" />
+    <fragment
+        android:id="@+id/workoutDosFragment"
+        android:name="WorkoutDosFragment"
+        android:label="WorkoutDosFragment" />
+    <fragment
+        android:id="@+id/workoutDontsFragment"
+        android:name="WorkoutDontsFragment"
+        android:label="WorkoutDontsFragment" />
 </navigation>

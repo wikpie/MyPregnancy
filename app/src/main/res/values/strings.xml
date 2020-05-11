@@ -7,12 +7,33 @@
     <string name="alarm_number_preferences">Alarm number</string>
     <string name="first_preferences">First Open</string>
     <string name="time_preferences">Saved time</string>
+    <string name="greeting">Witaj %1$s!</string>
+    <string name="week_count">%1$d Tydzień</string>
     <string name="name">Name</string>
+    <string name="call">ZADZWOŃ ALARMOWO</string>
     <string name="enter_name">Wpisz swoje imię</string>
     <string name="enter_number">Wpisz numer alarmowy</string>
     <string name="enter_pregnancy_week">Wpisz tydzień ciąży</string>
     <string name="confirm">Zatwierdź</string>
-    <string name="cancel"></string>
+    <string name="trimestr_one">Dieta w pierwszym trymestrze może być identyczna, jak ta sprzed ciąży. Nie musisz dbać o
+dodatkowe kalorie, staraj się jednak jeść około 2000 kcal dziennie. Jeśli masz silne mdłości i
+wymioty, dużo pij i jedz produkty, które twój organizm przyswaja najłatwiej.
+Zadbaj o to, aby na talerzu było dużo zielonych warzyw liściastych, fasoli – zawierają foliany,
+niezbędne do prawidłowego rozwoju płodu.
+Mimo to, przyjmuj kwas foliowy w tabletkach: wszystkim kobietom w ciąży zaleca się
+suplementowanie tego składnika przynajmniej do końca pierwszego trymestru</string>
+    <string name="trimestr_two">Od drugiego trymestru wzrasta zapotrzebowanie energetyczne, w diecie powinno znaleźć się
+dodatkowe 360 kcal (spożywaj ich teraz ok. 2300-2400 kcal dziennie). To tyle, co dodatkowa
+przekąska lub zastąpienie dotychczasowej przekąski większym posiłkiem.
+W tym okresie zaczyna się intensywny rozwój układu kostnego dziecka, dlatego jedz dużo
+produktów zawierających wapń i witaminę D.
+</string>
+    <string name="trimestr_three">Trzeci trymestr to przede wszystkim przyrost długości i masy ciała dziecka, ale również intensywny
+rozwój jego mózgu. Zapotrzebowanie na energię wzrasta o 475 kcal, czyli potrzebujesz ok. 2500
+kcal dziennie.
+Możesz teraz jeść 5 pełnych posiłków plus 1 przekąska. Wybieraj produkty z białkiem (mięso, ryba,
+jaja, twaróg, nasiona roślin strączkowych) i z żelazem - płód magazynuje je teraz na czas po
+porodzie.</string>
     <string name="textDietMain">Zdrowe odżywianie w ciąży nie oznacza jedzenia za dwoje. To, ile należy jeść, zależy od trybu
 życia, aktywności fizycznej, wagi sprzed ciąży itp., dlatego kaloryczność swojej diety powinnaś
 uzgodnić z lekarzem. Prawidłowy przyrost wagi w ciąży wynosi 12–14 kg.Jedz częściej, ale niezbyt
@@ -45,6 +66,163 @@ Zapobiegają rozwojowi chorób serca. Raz lub dwa razy w tygodniu jedz tłuste r
 zaczyna napierać na Twoje jelita. Jedz pieczywo pełnoziarniste, kasze, makarony, ryż. Owoce i
 warzywa dostarczą Ci nie tylko błonnika, lecz również witamin i soli mineralnych, zatem spożywaj
 je pięć razy dziennie.</string>
+    <string name="productsTextTitle"><b>Produkty, które warto jeść w ciąży</b></string>
+    <string name="productsText">\u2022<b>Jajka</b>. Są wartościowym źródłem witaminy A, niezbędnej do rozwoju i
+funkcjonowania oczu oraz skóry, chrząstek i kości. Wpływa ona także na
+syntezę białek i hormonów (zwłaszcza tarczycy). Jajka dostarczają też cennego
+białka, żelaza i witaminy B12. Inne źródła witaminy A to: marchew, żółte
+owoce i warzywa, wątróbka, mleko i jego przetwory, masło.
+\n\u2022<b>Oliwa</b>. Dostarcza witaminy E – silnego przeciwutleniacza, czyli substancji
+zapobiegającej zniszczeniom, jakich w komórkach i tkankach dokonują
+utleniacze. Witamina E chroni oczy, skórę, wątrobę, mięśnie oraz czerwone
+krwinki.
+Oliwa zawiera też cenne kwasy tłuszczowe: oleinowy, linolowy i alfalinolenowy. Inne źródła witaminy E: orzechy, pieczywo gruboziarniste, oleje
+roślinne (słonecznikowy, rzepakowy i sojowy), żółtko jaj, brokuły, brukselka,
+szpinak.
+\n\u2022<b>Szpinak</b>. To bogate źródło kwasu foliowego, niezbędnego w ciąży. Pełni
+ważną rolę w tworzeniu czerwonych krwinek, zmniejsza ryzyko wystąpienia
+wad rozwojowych u płodu. Szpinak dostarcza też sporo żelaza, beta-karotenu
+i witaminy C.
+Ma jedną wadę: utrudnia przyswajanie wapnia. Warto więc przyprawiać go
+śmietaną lub serem. Inne źródła kwasu foliowego: wątróbka, szparagi, sałata,
+brokuły, buraki, fasola, żółtka.
+\n\u2022<b>Jogurt</b>. Dostarcza pożytecznych probiotycznych bakterii, które zasiedlając
+jelita, wspomagają wchłanianie pożywienia i zapobiegają wzrostowi
+mikroorganizmów chorobotwórczych. Wytwarzają też witaminy z grupy B.
+Jogurt jest bogaty w białko, witaminy E i D, wapń, potas i fosfor. Inne źródła
+probiotyków: twarożki wzbogacone bakteriami probiotycznymi.
+\n\u2022<b>Ryby morskie (łosoś, makrela, tuńczyk)</b>. Są dobrym źródłem witaminy D.
+Pomaga ona przyswajać wapń i fosfor, ważne dla kości i zębów. Ryby
+dostarczają witamin z grupy B, magnezu i żelaza.
+Są bogate w kwasy omega-3, które mają korzystny wpływ na naczynia
+krwionośne, skórę, komórki mózgu oraz duże znaczenie dla rozwoju oczu
+dziecka. Inne źródła witaminy D: mleko, żółtko jaj.
+\n\u2022<b>Drożdże piwne</b>. Zawierają duże ilości witaminy B6, która jest niezbędna do
+wytwarzania białek, cukrów i tłuszczów. Odpowiada też za prawidłową
+czynność czerwonych krwinek i odporność organizmu.
+Drożdże piwne dostarczają również innych witamin z grupy B, a ponadto
+białko, aminokwasy oraz dużo żelaza. Inne źródła witaminy B6: kiełki
+pszenicy, otręby pszenne, wątróbka, nerki, kapusta, niełuskany ryż, orzechy
+włoskie.
+\n\u2022<b>Awokado</b>. To wspaniałe źródło białka roślinnego, które razem z białkiem
+zwierzęcym jest podstawowym budulcem komórek.
+Awokado jest też wyjątkowo zasobne w kwas foliowy, witaminy z grupy B,
+zwłaszcza B6, a ponadto w witaminę C, magnez i żelazo. Inne źródła białka
+roślinnego: ciecierzyca, fasola, soja i wyroby z soi, np. tofu.
+\n\u2022<b>Mięso drobiowe</b>. Jest cennym źródłem białka zwierzęcego – budulca komórek
+i tkanek. Jest ono również bogate w witaminy z grupy B, witaminę C, żelazo,
+magnez, cynk i potas. Inne źródła białka zwierzęcego: ryby, jajka, mleko i jego
+przetwory.
+\n\u2022<b>Pestki dyni</b>. Są zasobne w cynk, który bierze udział we wzroście i rozwoju
+organizmu. Ma znaczący wpływ na układ odpornościowy, kostny i rozwój
+mózgu, a także na ciśnienie krwi i rytm serca. Pestki zawierają także sporo
+żelaza.
+Inne źródła cynku: owoce morza, sardynki z puszki, wątróbka, jajka,
+pełnotłusty jogurt, ziarna pszenicy, pieczywo ziarniste.
+\n\u2022<b>Kasza gryczana</b>. Jest bardzo wartościowym źródłem magnezu. Ten
+pierwiastek bierze udział w działaniu blisko 300 enzymów w organizmie.
+Reguluje krążenie i ciśnienie krwi, jest też niezbędny do syntezy białek,
+przemiany tłuszczów i węglowodanów oraz do prawidłowego funkcjonowania
+układu nerwowego.
+Kasza zawiera również błonnik, a ponadto sporo kwasu foliowego i żelaza.
+Inne źródła magnezu: płatki owsiane, otręby pszenne, soja, fasola, kakao,
+gorzka czekolada, orzechy, suszone owoce.
+\n\u2022<b>Mleko</b>. To przede wszystkim wapń, który jest podstawowym budulcem kości i
+zębów. Reguluje także proces krzepnięcia krwi, jest niezbędny do przenoszenia
+sygnałów przez receptory nerwowe i do prawidłowej pracy mięśni. Reguluje
+ciśnienie krwi i zapobiega nadciśnieniu podczas ciąży.
+Mleko dostarcza również białka, witaminy D, witaminy B12, kwasu foliowego
+i potasu. Inne źródła wapnia: żółty ser, pieczywo pełnoziarniste, orzechy, sok
+pomarańczowy, kapusta, brokuły.
+\n\u2022<b>Mięso wołowe</b>. Zawiera dużo żelaza, niezbędnego zarówno do budowy masy
+mięśniowej łożyska, jak i zwiększonej produkcji hemoglobiny, która
+transportuje tlen do komórek i tkanek. Mięso dostarcza wartościowego białka,
+witamin z grupy B (zwłaszcza witaminy B12) oraz cynku. Inne źródła żelaza:
+wątróbka, żółtka jaj, płatki owsiane, orzechy, fasola, szpinak, botwina.
+\n\u2022<b>Pomidory</b>. Mają dużo potasu, który zapewnia prawidłowe funkcjonowanie
+mięśni i układu nerwowego. Reguluje także ciśnienie krwi i rytm serca, a
+ponadto (wraz z sodem i chlorem) utrzymuje równowagę płynów w
+organizmie. Pomidory są też zasobne w błonnik, witaminę C, kwas foliowy
+oraz likopen, który działa ochronnie na komórki. Inne źródła potasu: awokado,
+suszone figi, banany, melon, jabłka, świeży sok z pomarańczy, odtłuszczone
+mleko.
+\n\u2022<b>Gruboziarniste pieczywo</b>. To źródło błonnika, który usprawnia proces
+trawienia i zapobiega zaparciom – częstej dolegliwości podczas ciąży. Chleb
+pełnoziarnisty jest także bogaty w magnez, witaminy z grupy B i cynk.
+Inne źródła błonnika: otręby pszenne, niełuskany ryż, gruboziarniste kasze,
+warzywa i owoce.
+\n\u2022<b>Świeże soki</b>. Warzywne i owocowe dostarczają witamin i minerałów.
+Marchwiowy jest bogaty w betakaroten, buraczany – w żelazo, selerowy – w
+magnez, fosfor i witaminy z grupy B. Pomidorowy zaś to świetne źródło
+potasu. Soki owocowe, zwłaszcza cytrusowe, mają mnóstwo witaminy C.
+Ważne jest, by pić soki świeżo wyciskane, nie z kartonu. Jeśli brakuje ci czasu,
+możesz korzystać z butelkowanych soków tzw. jednodniowych. Inne źródła
+witaminy C: papryka, natka.
+\n\u2022<b>Kiełki</b>. Są skarbnicą wszelkich substancji odżywczych – zawierają ich
+znacznie więcej niż dorosłe rośliny. Występuje w nich obfitość wysokiej
+jakości białek i enzymów, dzięki którym są lekkostrawne.
+Są bogate w kompleks witamin i większość minerałów – najwięcej jest ich w
+kiełkach lucerny. Zawierają także dużą ilość chlorofilu, który pobudza proces
+wzrostu tkanek, wspomaga przemianę materii i oddychanie</string>
+    <string name="workout_main">Ćwiczenia w ciąży nie tylko pozwalają przyszłym mamom zadbać o samopoczucie, utrzymać kondycję i formę, ale i przygotować się do porodu.  Niosą ze sobą wiele korzyści tak dla przyszłej mamy, jak i dziecka. Nie sposób ich przecenić. Śmiało można stwierdzić, że ruch w ciąży to bardzo ważny element przygotowania do porodu, połogu i macierzyństwa. Warto jednak pamiętać, że z aktywnością ciężarnych wiążą się różne zagrożenia oraz ograniczenia.</string>
+    <string name="textDos">Ćwiczenia mogą przede wszystkim zapewnić kobiecie lepsze samopoczucie. Pomogą także
+odzyskać poczucie kontroli nad własnym ciałem i dodać energii. Ćwiczenia nie tylko podnoszą
+poziom endorfin, ale także:
+\n\u2022<b>pomagają zwalczyć bóle krzyża w ciąży i poprawić sylwetkę poprzez wzmacnianie mięśni pleców,
+pośladków i ud</b>,
+\n\u2022<b>zmniejszają zaparcia</b>,
+\n\u2022<b>zapobiegają zużyciu stawów</b>,
+\n\u2022<b>łagodzą stres i niepokój w nocy</b>.\n
+Dzięki nim kobieta może także po prostu wyglądać lepiej – podczas ćwiczeń zwiększa się przepływ
+krwi do skóry, dzięki czemu wygląda promiennie. Poza tym ćwiczenia są doskonałym sposobem na
+przygotowanie kobiety i jej ciała do porodu. Silne mięśnie i serce mogą ułatwić poród. Ćwiczenia
+oddechowe mogą pomóc uśmierzyć ból porodowy. Jest to naturalny sposób na łagodzenie bólu
+podczas porodu. W przypadku długiego porodu zwiększona wytrzymałość bardzo się przyda.
+Wysiłek fizyczny w ciąży pomoże też szybciej wrócić do pierwotnej wagi. Jeśli kobieta
+wykonywała ćwiczenia przed ciążą i będzie je kontynuowała podczas jej trwania, przybędzie jej
+mniej tkanki tłuszczowej. Nie można jednak oczekiwać, że kobieta schudnie podczas ciąży ani
+nawet próbować to robić. Dla większości kobiet celem jest utrzymanie ich poziomu sprawności
+przez cały okres ciąży</string>
+    <string name="textDonts">Możliwość wykonywania ćwiczeń w ciąży może być ograniczona, jeśli:
+ciąża przyczyniła się do powstania wysokiego ciśnienia krwi,
+\n\u2022<b>pojawiły się wczesne skurcze</b>,
+\n\u2022<b>występuje krwawienie z pochwy</b>,
+\n\u2022<b>pojawiło się przedwczesne pęknięcie wód płodowych</b>.\n
+Jeśli kobieta ćwiczyła przed zajściem w ciążę, może kontynuować swój trening, jednakże musi do
+niego wprowadzić niezbędne modyfikacje. Jeśli nie wykonywała żadnych ćwiczeń, powoli i
+stopniowo powinna budować swoją kondycję fizyczną. Jeśli kobieta jest zdrowa i nie ma
+przeciwwskazań odnośnie ćwiczeń, tygodniowo powinna poświęcać na nie 2,5 godziny.
+Ważne jest, aby przed rozpoczęciem jakiejkolwiek aktywności fizycznej kobieta porozmawiała o
+nich ze swoim ginekologiem. Spacery, pływanie, jazda na rowerze stacjonarnym, pilates, aerobik
+dla ciężarnych lub w wodzie, a nawet taniec, to najlepsze ćwiczenia. Szczególnie poleca się
+pływanie, ponieważ podczas przebywania w wodzie kobieta nie odczuwa swoich kilogramów.
+Najczęściej zalecane są spacery. Podczas nich łatwo można regulować tempo, zwiększać dystans.
+Jeśli kobieta biegała przed ciążą, w wielu przypadkach może nadal to robić, jednak z pewnymi
+zmianami. Zazwyczaj ćwiczenia powinny być dopasowane do danego trymestru. Ćwiczenia
+w pierwszym trymestrze mogą być intensywniejsze niż w trzecim.
+Niezależnie od rodzaju ćwiczeń ciało kobiety samo może sygnalizować, że ma ich dość. Kobieta
+może czuć wtedy:
+\n\u2022<b>zmęczenie</b>,
+\n\u2022<b>zawroty głowy</b>,
+\n\u2022<b>palpitacje serca</b>,
+\n\u2022<b>skrócenie oddechu</b>,
+\n\u2022<b>ból w plecach lub macicy</b>.\n
+Jeśli kobieta nie może mówić podczas ich wykonywania, oznacza to, że ćwiczenia są zbyt ciężkie
+dla niej. Nie należy ćwiczyć na siłę! Lepiej zgłosić się do lekarza, jeśli pojawią się jakiekolwiek
+niepokojące sygnały, szczególnie jeśli dojdzie do krwawienia lub wycieku płynu z pochwy.
+Ćwiczenia, które wymagają nierównych, sprężystych ruchów, a także te wykonywane na zewnątrz
+podczas upałów nie są dobrym wyborem. Niewskazane są także głębokie przysiady, ćwiczenia
+które wymagają dotknięcia palców u nóg. Ciężarna powinna unikać jazdy konnej, narciarstwa
+zjazdowego, wspinaczki. To od kobiety zależy, jak będzie wyglądała podczas ciąży. Jeśli chce, by
+ciąża nie pozostawiła po sobie zbędnych kilogramów warto, aby już na początku zdecydowała jak
+chce, by jej ciało wyglądało. Aby osiągnąć swój cel, będzie musiała podjąć pewne działania –
+przede wszystkim zaakceptować konieczne zmiany w jedzeniu i ćwiczeniach, a swój plan dnia
+układać tak, aby ćwiczenia były najważniejszym jego punktem.</string>
+    <string name="textDosTitle"><b>Dlaczego warto ćwiczyć w ciąży?</b></string>
+    <string name="textDontsTitle"><b>Ograniczenia dotyczące ćwiczeń w ciąży</b></string>
+    <string name="button_yes">Dlaczego warto</string>
+    <string name="button_no">Ograniczenia</string>
+    <string name="button_workout">Przykładowe ćwiczenia</string>
     <string name="button_product">Produkty</string>
     <string name="button_nutrient">Składniki odżywcze</string>
     <string name="button_sample">Znajdź danie</string>
