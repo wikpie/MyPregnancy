@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="WITAJ ANIU!"
+        android:fontFamily="@font/satisfy"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/alert_button"
+        style="@style/AppTheme.RoundedCornerMaterialButton"
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        app:icon="@drawable/ic_phone_black_24dp"
+        app:iconTint="#FFFFFF"
+        app:iconSize="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="ZADZWOŃ ALARMOWO"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/week_textview"
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/satisfy"
+        android:text="16 TYDZIEŃ"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_home" />
+
+    <TextView
+        android:id="@+id/hospital_textview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:justificationMode="inter_word"
+        android:fontFamily="@font/happy_monkey"
+        android:text="Najbliższy szpital: Uniwersyteckie Centrum Kliniczne w Gdańsku, ul. Dębinki 7 tel. 349-22-22"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/alert_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/info_textview"
+        android:fontFamily="@font/happy_monkey"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:justificationMode="inter_word"
+        android:text="Od drugiego trymestru wzrasta zapotrzebowanie energetyczne, w diecie powinno znaleźć się
+dodatkowe 360 kcal (spożywaj ich teraz ok. 2300-2400 kcal dziennie). To tyle, co dodatkowa
+przekąska lub zastąpienie dotychczasowej przekąski większym posiłkiem.
+W tym okresie zaczyna się intensywny rozwój układu kostnego dziecka, dlatego jedz dużo
+produktów zawierających wapń i witaminę D."
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/hospital_textview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/week_textview" />
+</androidx.constraintlayout.widget.ConstraintLayout>

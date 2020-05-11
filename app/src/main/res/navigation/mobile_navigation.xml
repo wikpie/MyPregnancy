@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="wiktor.pienko.mypregnancy.fragments.home.HomeFragment"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_diet"
+            app:destination="@id/navigation_diet"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_workout"
+            app:destination="@id/navigation_workout"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_diet"
+        android:name="wiktor.pienko.mypregnancy.fragments.diet.DietFragment"
+        tools:layout="@layout/fragment_diet" >
+        <action
+            android:id="@+id/action_navigation_diet_to_navigation_workout"
+            app:destination="@id/navigation_workout"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_navigation_diet_to_navigation_home"
+            app:destination="@id/navigation_home"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_navigation_diet_to_dietProductsFragment"
+            app:destination="@id/dietProductsFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_navigation_diet_to_dietNutrientsFragment"
+            app:destination="@id/dietNutrientsFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_workout"
+        android:name="wiktor.pienko.mypregnancy.fragments.workout.WorkoutFragment"
+        tools:layout="@layout/fragment_workout" >
+        <action
+            android:id="@+id/action_navigation_workout_to_navigation_home"
+            app:destination="@id/navigation_home"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_navigation_workout_to_navigation_diet"
+            app:destination="@id/navigation_diet"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/dietNutrientsFragment"
+        android:name="wiktor.pienko.mypregnancy.fragments.diet.DietNutrientsFragment"
+        android:label="fragment_diet_nutrients"
+        tools:layout="@layout/fragment_diet_nutrients" />
+    <fragment
+        android:id="@+id/dietProductsFragment"
+        android:name="wiktor.pienko.mypregnancy.fragments.diet.DietProductsFragment"
+        android:label="fragment_diet_products"
+        tools:layout="@layout/fragment_diet_products" />
+</navigation>
