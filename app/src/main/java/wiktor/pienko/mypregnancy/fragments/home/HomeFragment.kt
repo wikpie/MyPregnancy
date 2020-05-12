@@ -4,17 +4,19 @@ import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.navArgs
+import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.android.synthetic.main.fragment_home.view.*
 import wiktor.pienko.mypregnancy.R
 
 
 class HomeFragment : Fragment() {
-
 
     override fun onCreateView(
             inflater: LayoutInflater,
@@ -47,5 +49,13 @@ class HomeFragment : Fragment() {
             startActivity(intent)
         }
         return root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val args by navArgs<HomeFragmentArgs>()
+        val nearestHospital = args.hospital
+        hospital_textview.text=getString(R.string.nearest_hospital,nearestHospital)
+        Log.d("hospitalArg", nearestHospital)
     }
 }

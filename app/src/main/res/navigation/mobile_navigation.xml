@@ -19,6 +19,10 @@
             app:destination="@id/navigation_workout"
             app:enterAnim="@android:anim/slide_in_left"
             app:exitAnim="@android:anim/slide_out_right" />
+        <argument
+            android:name="hospital"
+            app:argType="string"
+            android:defaultValue="Uniwersyteckie Centrum Kliniczne w Gdańsku; Gdańsk, ul. Dębinki 7"/>
     </fragment>
 
     <fragment
