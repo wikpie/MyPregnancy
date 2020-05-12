@@ -1,15 +1,18 @@
 package wiktor.pienko.mypregnancy.fragments.diet
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import kotlinx.android.synthetic.main.fragment_diet.view.*
 import wiktor.pienko.mypregnancy.R
+import wiktor.pienko.mypregnancy.foodURL
+
 
 class DietFragment : Fragment(){
 
@@ -19,11 +22,17 @@ class DietFragment : Fragment(){
             savedInstanceState: Bundle?
     ): View? {
         val root = inflater.inflate(R.layout.fragment_diet, container, false)
+        val uri: Uri = Uri.parse(foodURL)
+        val intent = Intent(Intent.ACTION_VIEW, uri)
         root.findViewById<Button>(R.id.button_products)?.setOnClickListener { view ->
             view.findNavController().navigate(R.id.action_navigation_diet_to_dietProductsFragment)
         }
         root.findViewById<Button>(R.id.button_nutrients)?.setOnClickListener { view ->
             view.findNavController().navigate(R.id.action_navigation_diet_to_dietNutrientsFragment)
+        }
+        root.button_samples.setOnClickListener {
+
+            startActivity(intent)
         }
         return root
     }
