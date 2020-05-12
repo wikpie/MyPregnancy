@@ -5,9 +5,9 @@ import android.content.SharedPreferences
 import android.location.Location
 import android.os.Bundle
 import android.view.LayoutInflater
-import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.navigation.findNavController
@@ -15,11 +15,9 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.google.android.material.textfield.TextInputLayout
-import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.android.synthetic.main.login_dialog.view.*
-import wiktor.pienko.mypregnancy.base.BaseActivity
 
-class MainActivity  :  BaseActivity<MainPresenter>(), MainView {
+class MainActivity  :  AppCompatActivity() {
 
 
     private lateinit var fusedLocationClient: FusedLocationProviderClient
@@ -61,8 +59,6 @@ class MainActivity  :  BaseActivity<MainPresenter>(), MainView {
     private fun setupNavigation(){
         val navView: BottomNavigationView = findViewById(R.id.nav_view)
         val navController = findNavController(R.id.nav_host_fragment)
-       // val appBarConfiguration = AppBarConfiguration(setOf(R.id.navigation_home, R.id.navigation_diet, R.id.navigation_workout))
-//        setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
     }
 
@@ -103,9 +99,6 @@ class MainActivity  :  BaseActivity<MainPresenter>(), MainView {
             }
     }
 
-    override fun instantiatePresenter(): MainPresenter {
-        return MainPresenter(this)
-    }
     private fun checkPermissions(){
         val permissions = arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION,android.Manifest.permission.CALL_PHONE)
         ActivityCompat.requestPermissions(this, permissions,0)

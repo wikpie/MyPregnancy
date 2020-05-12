@@ -1,4 +1,4 @@
-package wiktor.pienko.mypregnancy.base
+package wiktor.pienko.mypregnancy
 
 // add constants here
 
