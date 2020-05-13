@@ -9,7 +9,7 @@
     <string name="time_preferences">Saved time</string>
     <string name="greeting">Witaj %1$s!</string>
     <string name="week_count">%1$d Tydzień</string>
-    <string name="nearest_hospital">Najbliższy szpital: %1$s!</string>
+    <string name="nearest_hospital">Najbliższy szpital: %1$s</string>
     <string name="name">Name</string>
     <string name="call">ZADZWOŃ ALARMOWO</string>
     <string name="enter_name">Wpisz swoje imię</string>
