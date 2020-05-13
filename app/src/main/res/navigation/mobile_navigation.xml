@@ -75,6 +75,11 @@
             app:destination="@id/workoutDosFragment"
             app:enterAnim="@android:anim/slide_in_left"
             app:exitAnim="@android:anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_navigation_workout_to_workoutSampleFragment"
+            app:destination="@id/workoutSampleFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"/>
     </fragment>
     <fragment
         android:id="@+id/dietNutrientsFragment"
@@ -94,4 +99,8 @@
         android:id="@+id/workoutDontsFragment"
         android:name="WorkoutDontsFragment"
         android:label="WorkoutDontsFragment" />
+    <fragment
+        android:id="@+id/workoutSampleFragment"
+        android:name="WorkoutSampleFragment"
+        android:label="WorkoutSampleFragment" />
 </navigation>

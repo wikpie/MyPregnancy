@@ -25,6 +25,9 @@ class WorkoutFragment : Fragment() {
         root.findViewById<Button>(R.id.button_dont)?.setOnClickListener { view ->
             view.findNavController().navigate(R.id.action_navigation_workout_to_workoutDontsFragment)
         }
+        root.findViewById<Button>(R.id.button_example_exercise)?.setOnClickListener { view ->
+            view.findNavController().navigate(R.id.action_navigation_workout_to_workoutSampleFragment)
+        }
         return root
     }
 }

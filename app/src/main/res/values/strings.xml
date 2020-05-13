@@ -227,4 +227,111 @@ układać tak, aby ćwiczenia były najważniejszym jego punktem.</string>
     <string name="button_product">Produkty</string>
     <string name="button_nutrient">Składniki odżywcze</string>
     <string name="button_sample">Znajdź danie</string>
+    <string name="exerciseImage1">https://www.womenshealth.pl/media/lib/2055/fitness_ciaza_1-b43e5adb69ea9bd3a48f5f6e3b1bb08f.jpg</string>
+    <string name="exerciseImage2">https://www.womenshealth.pl/media/lib/2055/fitness_ciaza_2-860cb04a72af18ab857e8380a2c22c03.jpg</string>
+    <string name="exerciseImage3">https://www.womenshealth.pl/media/lib/2055/fitness_ciaza_3-aae4c1d5d186b36cb30e9a2f160f2604.jpg</string>
+    <string name="exerciseImage4">https://www.womenshealth.pl/media/lib/2055/fitness_ciaza_4-70132f69a43eedf95ec0f5538ad66370.jpg</string>
+    <string name="exerciseImage5">https://www.womenshealth.pl/media/lib/2055/fitness_ciaza_5-5f0063643d07e3467df71fd086962daf.jpg</string>
+    <string name="exerciseImage6">https://www.womenshealth.pl/media/lib/2055/fitness_ciaza_6-85c79742087d52f0f2edcea5b9d599b2.jpg</string>
+    <string name="exerciseImage7">https://www.womenshealth.pl/media/lib/2055/fitness_ciaza_7-8b53882c77a78021caa1b4eb809fd8cc.jpg</string>
+    <string name="exerciseImage8">https://www.womenshealth.pl/media/lib/2055/fitness_ciaza_8-794adfbc96d5ef224b769b8e99cef698.jpg</string>
+    <string name="exerciseImage9">https://www.womenshealth.pl/media/lib/2055/fitness_ciaza_9-c4ec7eddf32a662f42505312218eeabd.jpg</string>
+    <string name="exerciseImage10">https://www.womenshealth.pl/media/lib/2055/fitness_ciaza_10-1904d4c248e9728104c874c7c8ebb462.jpg</string>
+    <string name="exerciseImage11">https://www.womenshealth.pl/media/lib/2055/fitness_ciaza_11-f62aefd44779b94526a6370eec072567.jpg</string>
+    <string name="exerciseImage12">https://www.womenshealth.pl/media/lib/2055/fitness_ciaza_17-6e757d3671ecd665b740fcf48ce7da93.jpg</string>
+    <string name="exerciseImage13">https://www.womenshealth.pl/media/lib/2055/fitness_ciaza_13-3008a7deeac0b6096c4a9433e811cbac.jpg</string>
+    <string name="exerciseImage14">https://www.womenshealth.pl/media/lib/2055/fitness_ciaza_14-d6e7760facbf6807ea8c4dc2b29dfcec.jpg</string>
+    <string name="exerciseImage15">https://www.womenshealth.pl/media/lib/2055/fitness_ciaza_15-554c8112ee45b6e8bd42a4d19ca9de5d.jpg</string>
+    <string name="exerciseImage16">https://www.womenshealth.pl/media/lib/2055/fitness_ciaza_16-7f2ee7a30845c3d97e8122eb7e2ded26.jpg</string>
+    <string name="exerciseString1"><b>Marsz przy piłce</b>\n
+
+<b>(a)</b> Stań wyprostowana (ściągnij łopatki), mając przed sobą piłkę szwajcarską. Rozłóż ręce na boki i jednocześnie umieść jedną stopę na piłce.\n
+
+<b>(b)</b> Przenieś ręce przed siebie i dotknij drugą stopą piłki. Powtarzaj na zmianę w równym rytmie.</string>
+    <string name="exerciseString2"><b>Balansowanie z piłką
+
+</b>\n
+
+<b>(a)</b> Stań wyprostowana, trzymając piłkę przed sobą w wyciągniętych rękach. Przenieś ciężar ciała na jedną stronę i przełóż piłkę w bok.\n
+
+<b>(b)</b> Przenieś piłkę i ciężar ciała na drugą stronę. Płynnie balansuj z jednej nogi na drugą.
+
+
+</string>
+    <string name="exerciseString3"><b>Marsz na piłce</b>\n
+
+<b>(a)</b>  Usiądź prosto na piłce szwajcarskiej. Unieś jedno kolano i razem z nim przenieś zgięte w łokciach ręce do poziomu.\n
+
+<b>(b)</b> Opuść nogę, unieś drugą, a ręce przełóż (wciąż ugięte) przed klatkę piersiową. Cały czas trzymaj plecy wyprostowane. Maszeruj.</string>
+    <string name="exerciseString4"><b>Krążenia bioder
+
+</b>\n
+
+<b>(a)</b> Usiądź na piłce, rozstaw stopy na tyle szeroko, żeby czuć się stabilnie. Kolana kieruj w stronę palców stóp.\n
+
+<b>(b)</b> Wykonuj biodrami obszerne kółka w jedną, a potem w drugą stronę. Następnie pochyl miednicę w przód i wróć nią do pozycji neutralnej. To samo ćwiczenie będziesz wykonywać w przerwach między ćwiczeniami w głównej części treningu.
+
+</string>
+    <string name="exerciseString5"><b>Przysiad przy piłce</b>\n
+
+<b>(a)</b> Ustaw się w rozkroku, tak by mieć piłkę przed sobą i proste plecy. Kolana kieruj w stronę palców stóp.\n
+
+        <b>(b)</b> Zejdź do przysiadu, opierając ręce na piłce. Wróć w górę. Powtarzaj dalej.
+
+
+</string>
+    <string name="exerciseString6"><b>Pompka przy ścianie</b>\n
+
+<b>(a)</b> Stań na wprost ściany, ręce oprzyj na wysokości barków. Im dalej od ściany odstawisz nogi, tym będzie trudniej.\n
+
+<b>(b)</b> Ugnij ręce, zbliżając klatkę piersiową do ściany. Wyprostuj łokcie i powtarzaj dalej.</string>
+    <string name="exerciseString7"><b>Wyciskanie na piłce</b>\n
+
+<b>(a)</b> Usiądź stabilnie na piłce (oczywiście wyprostowana). W dłoniach trzymaj hantelki. Przenieś je do wysokości barków.\n
+
+<b>(b)</b> Wyciśnij ciężarki pionowo nad głowę, zachowując naturalne krzywizny kręgosłupa. Opuść hantelki i powtarzaj dalej.</string>
+    <string name="exerciseString8"><b>Przysiad na piłkę</b>\n
+
+<b>(a)</b> Usiądź na piłce, rozstaw nogi szeroko jak do przysiadu. Rozstaw stopy, aby czuć się stabilnie, kolana kieruj w stronę palców stóp.\n
+
+<b>(b)</b> Unieś biodra, tak by znaleźć się tuż nad piłką. Plecy proste? OK. Opuść pupę. Po paru powtórzeniach poczujesz, że to ćwiczenie tylko tak niewinnie wygląda.</string>
+    <string name="exerciseString9"><b>Unoszenie piłki w opadzie</b>\n
+
+<b>(a)</b> Stań w rozkroku, lekko ugnij kolana i pochyl wyprostowany tułów. Złap przed sobą piłkę, ściągnij łopatki. Wzrok skieruj przed siebie. \n
+<b>(b)</b> Nie poruszając niczym poza rękami, przenieś piłkę nad głowę. Opuść ją do pozycji wyjściowej i znów unieś.</string>
+    <string name="exerciseString10"><b>Wypad przy piłce</b>\n
+
+<b>(a)</b> Ustaw jedną nogę daleko przed drugą, tak by nie znajdowały się w jednej linii, tylko równolegle do siebie. Palce skierowane na wprost. Obok trzymaj piłkę.\n
+
+<b>(b)</b>Zejdź w dół, uginając kolana, tak by to z tyłu znalazło się tuż nad ziemią. Tylna pięta powinna być cały czas uniesiona.</string>
+    <string name="exerciseString11"><b>Zaciskanie ud na piłce</b>\n
+
+<b>(a)</b> Stań w rozkroku, tak by zmieścić piłkę między nogami. Oprzyj ręce na biodrach i ściągnij łopatki.\n
+
+<b>(b)</b> Zaciśnij nogi na piłce i po chwili rozluźnij. Powtarzaj dalej.</string>
+    <string name="exerciseString12"><b>Cofanie nogi w klęku podpartym</b>\n
+
+<b>(a)</b> Oprzyj na macie dłonie pod barkami, a kolana pod biodrami. Plecy powinny zachować naturalne krzywizny. Unieś kolana tuż nad podłogę (w wersji łatwiejszej zostaw je na macie).\n
+
+<b>(b)</b> Cofnij jedną nogę do wyprostu. Dostaw ją z powrotem. Odsuń drugą. I tak dalej, na zmianę.</string>
+    <string name="exerciseString13"><b>Unoszenie nogi w oparciu na piłce</b>\n
+
+<b>(a)</b> Oprzyj bok ciała na piłce i dolne kolano na macie. Obejmij piłkę ręką, drugą dłoń oprzyj na biodrze. Wyprostuj górną nogę.\n
+
+<b>(b)</b>  Unieś nogę znajdującą się na górze mniej więcej do wysokości bioder. Obniż ją, ale nie opuszczaj na matę. Powtarzaj dalej i zmień ćwiczącą stronę.</string>
+    <string name="exerciseString14"><b>Siad klęczny z kettlem</b>\n
+
+<b>(a)</b> Usiądź na piętach (jeśli masz z tym problem, podłóż pod pośladki poduszkę). Trzymaj kettla przed sobą, przy klatce piersiowej.\n
+
+<b>(b)</b> Unieś biodra z pięt. Ręce nad głowę, aż tułów z udami znajdą się w jednej linii. Usiądź z powrotem na piętach. Nie przyciągaj barków do uszu.</string>
+    <string name="exerciseString15"><b>Łuk bokiem</b>\n
+
+<b>(a)</b> Usiądź bokiem, opierając się na jednej ręce, a drugą kładąc na biodrze. Plecy mają być proste, a łopatki ściągnięte.\n
+<b>(b)</b> Unieś biodra i przenieś górną rękę nad głowę, wyginając całe ciało w łuk. Wróć na ziemię.</string>
+    <string name="exerciseString16"><b>Sięganie w klęku podpartym</b>\n
+
+<b>(a)</b> Ustaw się w klęku podpartym, jak w ćwiczeniu numer 8. Przenieś jedną rękę pod klatką piersiową na drugą stronę ciała.\n
+
+<b>(b)</b> Przenieś ją teraz w przeciwnym kierunku, w górę, skieruj wzrok za dłonią. Powtarzaj dalej i nie zapomnij zmienić ćwiczącej strony.</string>
+
 </resources>
