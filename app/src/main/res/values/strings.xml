@@ -226,4 +226,7 @@ układać tak, aby ćwiczenia były najważniejszym jego punktem.</string>
     <string name="button_product">Produkty</string>
     <string name="button_nutrient">Składniki odżywcze</string>
     <string name="button_sample">Znajdź danie</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
