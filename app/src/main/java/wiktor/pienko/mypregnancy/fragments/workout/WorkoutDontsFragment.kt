@@ -12,8 +12,7 @@ class WorkoutDontsFragment : Fragment(){
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val root = inflater.inflate(R.layout.fragment_workout_donts, container, false)
-        return root
+        return inflater.inflate(R.layout.fragment_workout_donts, container, false)
     }
 
 

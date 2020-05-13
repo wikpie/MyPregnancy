@@ -14,8 +14,7 @@ class DietNutrientsFragment : Fragment(){
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val root = inflater.inflate(R.layout.fragment_diet_nutrients, container, false)
-        return root
+        return inflater.inflate(R.layout.fragment_diet_nutrients, container, false)
     }
 
 

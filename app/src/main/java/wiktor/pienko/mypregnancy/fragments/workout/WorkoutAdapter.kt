@@ -38,8 +38,8 @@ class WorkoutAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     inner class WorkoutViewHolder constructor(
         itemView : View
     ):RecyclerView.ViewHolder(itemView){
-        val exerciseText: TextView=itemView.exerciseText
-        val exerciseImage: ImageView =itemView.exerciseImage
+        private val exerciseText: TextView=itemView.exerciseText
+        private val exerciseImage: ImageView =itemView.exerciseImage
         fun bind(sample: WorkoutSample){
             val requestOptions = RequestOptions()
                 .placeholder(R.drawable.ic_launcher_background)

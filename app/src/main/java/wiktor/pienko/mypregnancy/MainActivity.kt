@@ -17,7 +17,6 @@ import com.google.android.gms.location.LocationServices
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.textfield.TextInputLayout
 import kotlinx.android.synthetic.main.login_dialog.view.*
-import wiktor.pienko.mypregnancy.fragments.home.HomeFragment
 import kotlin.math.roundToInt
 
 class MainActivity  :  AppCompatActivity() {
