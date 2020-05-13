@@ -1,11 +1,15 @@
 package wiktor.pienko.mypregnancy.fragments.workout
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
+import kotlinx.android.synthetic.main.recycler_workout_item.view.*
 import wiktor.pienko.mypregnancy.R
 
 class WorkoutAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
@@ -34,8 +38,8 @@ class WorkoutAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     inner class WorkoutViewHolder constructor(
         itemView : View
     ):RecyclerView.ViewHolder(itemView){
-        val exerciseText=itemView.exercise_text
-        val exerciseImage=itemView.senior_image
+        val exerciseText: TextView=itemView.exerciseText
+        val exerciseImage: ImageView =itemView.exerciseImage
         fun bind(sample: WorkoutSample){
             val requestOptions = RequestOptions()
                 .placeholder(R.drawable.ic_launcher_background)
@@ -44,8 +48,10 @@ class WorkoutAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
                 .applyDefaultRequestOptions(requestOptions)
                 .load(sample.image)
                 .into(exerciseImage)
-            exerciseText.setText(sample.name)
+            exerciseText.text = sample.name
+            Log.d("listname", sample.toString())
         }
+
     }
 }
 data class WorkoutSample(var name: String,var image: String)
